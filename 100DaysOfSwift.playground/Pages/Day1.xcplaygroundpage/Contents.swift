@@ -1,4 +1,4 @@
-// https://www.hackingwithswift.com/sixty
+//https://www.hackingwithswift.com/100/1
 
 import UIKit
 
@@ -46,7 +46,7 @@ let taylor = "swift"
 
 // MARK: - Type Annoation
 // type inference: Swift is able to infer the type of something based on how you created it.
-let str = "Hello, playground"
+let newStr = "Hello, playground"
 
 //  explicit about the type of your data rather than relying on Swift’s type inference, like this:
 let album: String = "Reputation"
