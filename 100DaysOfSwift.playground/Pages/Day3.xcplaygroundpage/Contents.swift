@@ -1,6 +1,6 @@
 //: [Previous](@previous)
 
-https://www.hackingwithswift.com/100/3
+//https://www.hackingwithswift.com/100/3
 import Foundation
 
 //: [Next](@next)
