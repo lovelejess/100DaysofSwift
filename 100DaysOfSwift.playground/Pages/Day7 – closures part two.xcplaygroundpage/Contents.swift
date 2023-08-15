@@ -138,4 +138,16 @@ result("London")
 result("London")
 result("London")
 
+// great for adder functions
+func makeAdder() -> (Int) -> Void {
+    var sum = 0
+    return {
+        sum += $0
+        print("Sum is now \(sum)")
+    }
+}
+let adder = makeAdder()
+adder(5)
+adder(3)
+
 //: [Next](@next)

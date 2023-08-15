@@ -8,5 +8,6 @@
         <page name='Day5 – functions, parameters, and errors'/>
         <page name='Day6 – closures part one'/>
         <page name='Day7 – closures part two'/>
+        <page name='Day8 – structs, properties, and methods'/>
     </pages>
 </playground>
