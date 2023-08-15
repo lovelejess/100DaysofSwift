@@ -3,8 +3,6 @@
 //https://www.hackingwithswift.com/100/3
 import Foundation
 
-//: [Next](@next)
-
 // MARK: - Arithmetic Operators
 let firstScore = 12
 let secondScore = 4
@@ -119,3 +117,6 @@ case 50..<85:
 default:
     print("You did great!")
 }
+
+
+//: [Next](@next)

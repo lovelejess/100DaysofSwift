@@ -4,8 +4,6 @@ import Foundation
 
 //https://www.hackingwithswift.com/100/5
 
-//: [Next](@next)
-
 
 func getUser() -> (first: String, last: String) {
     (first: "Taylor", last: "Swift")
@@ -73,3 +71,6 @@ func doubleInPlace(number: inout Int) {
 
 var myNum = 10
 doubleInPlace(number: &myNum)
+
+
+//: [Next](@next)

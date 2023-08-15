@@ -3,10 +3,6 @@
 //https://www.hackingwithswift.com/100/4
 import Foundation
 
-var greeting = "Hello, playground"
-
-//: [Next](@next)
-
 // MARK: - For
 let count = 1...10
 for number in count {
@@ -80,3 +76,4 @@ for i in 1...10 {
 
     print(i)
 }
+//: [Next](@next)

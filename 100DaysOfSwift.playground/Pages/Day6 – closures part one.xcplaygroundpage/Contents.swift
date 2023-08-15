@@ -4,7 +4,6 @@ import Foundation
 
 //https://www.hackingwithswift.com/100/6
 
-//: [Next](@next)
 // You can create a function and assign it to a variable
 // call that function using that variable
 // and even pass that function into other functions as parameters.
@@ -69,3 +68,5 @@ travel() {
 travel {
     print("I'm driving in my car")
 }
+
+//: [Next](@next)
