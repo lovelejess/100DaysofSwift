@@ -112,4 +112,30 @@ travel { (location: String, time: Int) -> String in
 travel {
     return "I am enroute to \($0) and will be there in \($1) minutes"
 }
+
+// return a closure
+func travelReturnsClosure() -> (String) -> Void {
+    return {
+        print("I'm going to \($0)")
+    }
+}
+
+let returnedClosure = travelReturnsClosure()
+returnedClosure("London")
+
+
+// can capture values within returned closure
+func captureTravel() -> (String) -> Void {
+    var count = 0
+    return {
+        print("I'm going to \($0). I've been there \(count) times!")
+        count+=1
+    }
+}
+
+let result = captureTravel()
+result("London")
+result("London")
+result("London")
+
 //: [Next](@next)
